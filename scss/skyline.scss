@@ -1,0 +1,77 @@
+.skylineHome{
+        height: 400px;
+        width: 100%;
+        background-image: url(../images/NewYork.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+div.skylineBody{
+
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 50px;
+    }
+
+    p{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+
+    .split{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        padding-top: 50px;
+        
+        .left{
+            height: 400px;
+            width: 50%;
+            background-image: url(../images/Denver.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .right{
+            height: 400px;
+            width: 50%;
+            background-color: wheat;
+            padding: 10px;
+
+            h1{
+                color: black;
+            }
+        }
+
+        }
+        .split-2{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            padding-top: 50px;
+
+            .left{
+                height: 400px;
+                width: 50%;
+                background-color: wheat;
+                padding: 10px;
+            }
+
+            .right{
+                height: 400px;
+                width: 50%;
+                background-image: url(../images/Miami.jpeg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+        }
+}

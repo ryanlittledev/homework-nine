@@ -1,0 +1,281 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.skylineHome {
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/NewYork.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.skylineBody h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 50px;
+}
+div.skylineBody p {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+div.skylineBody .split {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+div.skylineBody .split .left {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/Denver.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.skylineBody .split .right {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+div.skylineBody .split .right h1 {
+  color: black;
+}
+div.skylineBody .split-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+div.skylineBody .split-2 .left {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+div.skylineBody .split-2 .right {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/Miami.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.beachesAbout {
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/panorama.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.beachesBody h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 50px;
+}
+.beachesBody .split {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.beachesBody .split .left {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/turkey.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.beachesBody .split .right {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.beachesBody .split .right h1 {
+  color: black;
+}
+.beachesBody .split-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.beachesBody .split-2 .left {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.beachesBody .split-2 .right {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/tropical.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moutainsProducts {
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/Zealand.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.moutainsBody h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 50px;
+}
+.moutainsBody .split {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.moutainsBody .split .left {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/Austria.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.moutainsBody .split .right {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.moutainsBody .split .right h1 {
+  color: black;
+}
+.moutainsBody .split-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.moutainsBody .split-2 .left {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.moutainsBody .split-2 .right {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/Carp.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.waterfallsContact {
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/Thailand.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.waterfallsBody h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 50px;
+}
+.waterfallsBody .split {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.waterfallsBody .split .left {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/Niagara.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.waterfallsBody .split .right {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.waterfallsBody .split .right h1 {
+  color: black;
+}
+.waterfallsBody .split-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 50px;
+}
+.waterfallsBody .split-2 .left {
+  height: 400px;
+  width: 50%;
+  background-color: wheat;
+  padding: 10px;
+}
+.waterfallsBody .split-2 .right {
+  height: 400px;
+  width: 50%;
+  background-image: url(../images/Iceland.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=styles.css.map */
